@@ -11,15 +11,14 @@
 ---
 ## 🗂 **Table of Contents**
 
-1. [Project Overview](#📖-project-overview)  
-2. [Application of Python Concepts and Libraries](#🛠️-application-of-python-concepts-and-libraries)  
-3. [SDG Integration](#🌍-sdg-integration-goal-12---responsible-consumption-and-production)  
-4. [Getting Started](#🚀-getting-started)  
-5. [Using the Program](#4-using-the-program)  
-6. [Menu Options](#🌟-menu-options)  
-7. [Sample Outputs](#📊-sample-outputs)  
-8. [General Instructions](#📌-general-instructions)  
-
+1. [Project Overview](#project-overview)  
+2. [Application of Python Concepts and Libraries](#application-of-python-concepts-and-libraries)  
+3. [SDG Integration](#sdg-integration-goal-12---responsible-consumption-and-production)  
+4. [Getting Started](#getting-started)  
+5. [Using the Program](#using-the-program)  
+6. [Menu Options](#menu-options)  
+7. [Sample Outputs](#sample-outputs)  
+8. [General Instructions](#general-instructions)  
 
 -----
 ## 🛠️ Application of Python Concepts and Libraries
