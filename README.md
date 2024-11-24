@@ -66,10 +66,8 @@ By addressing these aspects, Xpense Tracker aligns with the global goal of encou
 
 ## 🚀 Getting Started
 ## 1. Prerequisites:
-- Install **Python 3.6** or above.
-- Install **Visual Studio Code (VS Code)**:
-  1. Download and install VS Code from [code.visualstudio.com](https://code.visualstudio.com/).
-  2. Install the **Python extension** in VS Code for better development and debugging support.
+- Install **Python 3.6** or above: [Download Python](https://www.python.org/downloads/)
+- Install **Visual Studio Code**: [Download VS Code](https://code.visualstudio.com/)
 - Ensure the `expenses.json` file is in the working directory (or let the program create it on the first run).
 
 ## 2. Clone or Download the Repository:
