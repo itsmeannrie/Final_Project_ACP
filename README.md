@@ -92,29 +92,46 @@ XPENSE TRACKER MENU
 
 # 🌟 **Menu Options**
 
-### **1. Add Expense**  
-Easily log a new expense by:  
-- Selecting a category (e.g., Food, Transport, Entertainment).  
-- Entering a description of the expense.  
-- Providing the expense amount and date.  
-### **2. View List of Expenses**  
-Review all recorded expenses in a neatly formatted table for quick and easy access to details.
-### **3. Delete Expense**  
-Remove an unwanted expense by selecting its corresponding index number from the list.
-### **4. Generate Monthly Report**  
-Get a summarized report of your monthly spending:  
-- Categorized breakdowns of expenses.  
-- Budget comparisons to identify areas of overspending or savings.  
-### **5. Modify Monthly Budget**  
-Adjust the budget for any specific month to stay aligned with your evolving financial goals.
-### **6. Reset Data**  
-Clear all stored data to start fresh.  
-*(Note: This action requires confirmation and will delete all expenses and budgets.)*
-### **7. Exit**  
-Save your progress and exit the program safely.
+| **Feature**                   | **Description**                                                                      |
+|------------------------------ |--------------------------------------------------------------------------------------|
+| **Add Expense**               | Log a new expense by selecting a category, entering a description, amount, and date. |
+| **View List of Expenses**     | Review all recorded expenses in a neat table format.                                 |
+| **Delete Expense**            | Remove an unwanted expense by its index number.                                      |
+| **Generate Monthly Report**   | View categorized expense summaries and compare them to monthly budgets.              |
+| **Modify Monthly Budget**     | Adjust your budget for any specific month as needed.                                 |
+| **Reset Data**                | Clear all stored data to start fresh.                                                |
+| **Exit**                      | Save your progress and exit the program safely.                                      |
 
 ---
+# 📊 **Sample Outputs**
 
+## **View List of Expense Example**  
+```plaintext
+-------------------------- LIST OF EXPENSES ----------------------------------------
++-----+---------------------------------+------------+------------+-----------------+
+| No. | Description                     | Amount     | Date       | Category        |
++-----+---------------------------------+------------+------------+-----------------+
+| 1   | we                              | ₱50.00     | 11-22-2024 | Food            |
++-----+---------------------------------+------------+------------+-----------------+
+| 2   | do ut                           | ₱12.00     | 11-22-2024 | Food            |
++-----+---------------------------------+------------+------------+-----------------+
+```
+
+## **Generate Monthly Report**
+```
+===== EXPENSE REPORT BY MONTH =====
+
+ *********** November 2024 **********
+Category        Amount Spent    Budget     Remaining Budget     Status
+--------------------------------------------------------------------------------
+Food            ₱74.00          ₱500.00     ₱226.00              Within Budget
+Transport       ₱200.00         ₱500.00     ₱226.00              Within Budget
+--------------------------------------------------------------------------------
+TOTAL EXPENSES: ₱274.00
+REMAINING BUDGET: ₱226.00
+```
+
+---
 ## 📌 **General Instructions**  
 - **Step-by-Step Guide:** Follow the on-screen prompts for each menu option.  
 - **Input Validation:** Enter values carefully—any invalid input will prompt you to retry.  
