@@ -12,7 +12,7 @@
 ---
 ## 🗂 **Table of Contents**
 1. [Project Overview](#📖-project-overview)  
-2. [Application of Python Concepts and Libraries](https://github.com/itsmeannrie/Final_Project_ACP/blob/main/README.md#%F0%9F%9A%80-getting-started)
+2. [Application of Python Concepts and Libraries](https://github.com/itsmeannrie/Final_Project_ACP/blob/main/README.md#%F0%9F%9A%80-getting-started:~:text=%F0%9F%9B%A0%EF%B8%8F%20Application%20of%20Python%20Concepts%20and%20Libraries)
 3. [SDG Integration](#🌍-sdg-integration-goal-12---responsible-consumption-and-production)  
 4. [Getting Started](#🚀-getting-started)  
 5. [Menu Options](#🌟-menu-options)  
