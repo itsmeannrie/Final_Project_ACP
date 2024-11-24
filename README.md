@@ -117,7 +117,7 @@ XPENSE TRACKER MENU
 +-----+---------------------------------+------------+------------+-----------------+
 ```
 
-## **Generate Monthly Report**
+## **Generate Monthly Report Example**
 ```
 ===== EXPENSE REPORT BY MONTH =====
 
