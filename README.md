@@ -113,7 +113,7 @@ XPENSE TRACKER MENU
 +-----+---------------------------------+------------+------------+-----------------+
 | 1   | coffee                          | ₱50.00     | 11-22-2024 | Food            |
 +-----+---------------------------------+------------+------------+-----------------+
-| 2   | donut                           | ₱200.00    | 11-22-2024 | Transporation   |
+| 2   | fare                            | ₱200.00    | 11-22-2024 | Transporation   |
 +-----+---------------------------------+------------+------------+-----------------+
 ```
 
@@ -131,6 +131,25 @@ TOTAL EXPENSES: ₱274.00
 REMAINING BUDGET: ₱226.00
 ```
 
+## **Edge Case: Overspending**
+### **Scenario: User exceeds their monthly budget**
+- **Monthly Budget:** ₱1000.00
+- **Expenses:**  
+  - ₱600.00 on Food  
+  - ₱500.00 on Transport  
+
+### **Resulting Report Output**
+```plaintext
+===== EXPENSE REPORT: November 2024 =====
+Category         Amount Spent     Budget          Remaining Budget     Status
+--------------------------------------------------------------------------------
+Food             ₱ 600.00         ₱ 1000.00       ₱ -100.00            Over Budget
+Transport        ₱ 500.00         ₱ 1000.00       ₱ -100.00            Over Budget
+--------------------------------------------------------------------------------
+TOTAL EXPENSES: ₱1100.00  
+REMAINING BUDGET: ₱-100.00  
+WARNING: Over budget by ₱100.00!
+``` 
 ---
 ## 📌 **General Instructions**  
 - **Step-by-Step Guide:** Follow the on-screen prompts for each menu option.  
