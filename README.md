@@ -112,20 +112,11 @@ XPENSE TRACKER MENU
 
 ---
 # 📊 **Sample Outputs**
-
-## **Adding Expense Example** 
 <details>
-  <summary>View Full Example: Adding an Expense</summary>
-  
-  **Steps to Add an Expense:**
-  1. Select "Add Expense" from the menu.
-  2. Enter details:
-     - Category: Food
-     - Description: Lunch
-     - Amount: ₱120.00
-     - Date: 11-22-2024
-  
-  **Output:**
+  <summary>View Full Example:</summary>
+   
+## **Adding Expense Example** 
+   **Output:**
   ```plaintext
   --- Adding a New Expense ---
   New Expense Added:
