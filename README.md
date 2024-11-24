@@ -11,15 +11,13 @@
 ---
 ## 🗂 **Table of Contents**
 
-1. [Project Overview](#📖-project-overview)  
-2. [Application of Python Concepts and Libraries](#-🛠️-application-of-python-concepts-and-libraries)  
-3. [SDG Integration](#-🌍-sdg-integration-goal-12---responsible-consumption-and-production)  
-4. [Getting Started](#-🚀-getting-started)  
-5. [Using the Program](#4-using-the-program)  
-6. [Menu Options](#-🌟-menu-options)  
-7. [Sample Outputs](#-📊-sample-outputs)  
-8. [General Instructions](#-📌-general-instructions)  
-
+1. [Project Overview](#project-overview)  
+2. [Application of Python Concepts and Libraries](#application-of-python-concepts-and-libraries)  
+3. [SDG Integration](#sdg-integration-goal-12-responsible-consumption-and-production)  
+4. [Getting Started](#getting-started)  
+5. [Menu Options](#menu-options)  
+6. [Sample Outputs](#sample-outputs)  
+7. [General Instructions](#general-instructions)  
 
 -----
 ## 🛠️ Application of Python Concepts and Libraries
@@ -74,7 +72,7 @@ By addressing these aspects, Xpense Tracker aligns with the global goal of encou
   2. Install the **Python extension** in VS Code for better development and debugging support.
 - Ensure the `expenses.json` file is in the working directory (or let the program create it on the first run).
 
-### 2. Clone or Download the Repository:
+## 2. Clone or Download the Repository:
 ```bash
 git clone https://github.com/your-username/xpense-tracker.git
 cd xpense-tracker
@@ -86,7 +84,7 @@ Execute the following command:
 ```bash
 python main.py
 ```
-# 4 Using the Program
+## 4 Using the Program
 
 Once launched, the program will prompt you to enter your name and guide you through a menu of options.  
 Use the corresponding numbers to navigate the menu:
