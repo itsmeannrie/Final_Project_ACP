@@ -1,8 +1,7 @@
-# Xpense Tracker Logo
-![Xpense Tracker Logo](https://www.canva.com/design/DAGXZdQPg48/lwWAEqXXaITGwoARBovSrg/view?utm_content=DAGXZdQPg48&utm_campaign=share_your_design&utm_medium=link&utm_source=shareyourdesignpanel)
-<div align="center">
-    <img src="https://www.canva.com/design/DAGXZdQPg48/lwWAEqXXaITGwoARBovSrg/view?utm_content=DAGXZdQPg48&utm_campaign=share_your_design&utm_medium=link&utm_source=shareyourdesignpanel" alt="Xpense Tracker Logo" width="600">
-</div>
+# Xpense Tracker Logo#
+![Xpense Tracker Logo](https://example.com/logo.png "Xpense Tracker Logo")
+
+
 
 
 -----------------
