@@ -113,7 +113,7 @@ XPENSE TRACKER MENU
 ---
 # 📊 **Sample Outputs**
 <details>
-  <summary>View Examples::</summary>
+  <summary>View Examples:</summary>
    
 ## **Adding Expense Example** 
    **Output:**
