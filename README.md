@@ -97,27 +97,22 @@ Easily log a new expense by:
 - Selecting a category (e.g., Food, Transport, Entertainment).  
 - Entering a description of the expense.  
 - Providing the expense amount and date.  
-
 ### **2. View List of Expenses**  
 Review all recorded expenses in a neatly formatted table for quick and easy access to details.
-
 ### **3. Delete Expense**  
 Remove an unwanted expense by selecting its corresponding index number from the list.
-
 ### **4. Generate Monthly Report**  
 Get a summarized report of your monthly spending:  
 - Categorized breakdowns of expenses.  
 - Budget comparisons to identify areas of overspending or savings.  
-
 ### **5. Modify Monthly Budget**  
 Adjust the budget for any specific month to stay aligned with your evolving financial goals.
-
 ### **6. Reset Data**  
 Clear all stored data to start fresh.  
 *(Note: This action requires confirmation and will delete all expenses and budgets.)*
-
 ### **7. Exit**  
 Save your progress and exit the program safely.
+
 ---
 
 ## 📌 **General Instructions**  
