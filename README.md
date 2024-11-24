@@ -168,7 +168,7 @@ TOTAL EXPENSES: ₱1100.00
 REMAINING BUDGET: ₱-100.00  
 WARNING: Over budget by ₱100.00!
 ```
-## **Modify Montly Budget Example:**
+## **Modify Monthly Budget Example:**
 ```plaintext
 Modify Monthly Budget:
 Enter the year (ex: 2024): 2024
@@ -179,7 +179,7 @@ Budget for November 2024 updated to: ₱1000.00
 -------- Data saved successfully. --------
 ```
 -------
-## 📌 **General Instructions**  
+### 📌 **General Instructions**  
 - **Step-by-Step Guide:** Follow the on-screen prompts for each menu option.  
 - **Input Validation:** Enter values carefully—any invalid input will prompt you to retry.  
 - **Automatic Data Saving:** Your data is saved after every operation.
