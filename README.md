@@ -3,15 +3,14 @@
 
 
 -----------------
-# 📖 Project Overview
+## 📖 Project Overview
 
 **Xpense Tracker** is a Python-based financial management system designed to help users effectively track their expenses, set monthly budgets, and monitor spending patterns. It integrates user-friendly features like categorizing expenses, generating reports, and alerting users when their spending exceeds budget limits. With a focus on financial literacy and empowerment, this project supports individuals in making informed decisions about their finances.
 
  Xpense Tracker helps users stay informed, disciplined, and financially literate. The system aligns with the United Nations Sustainable Development Goals (SDGs) by promoting responsible consumption and production practices.
 
 ---
-# 🗂 **Table of Contents**
-
+## 🗂 **Table of Contents**
 1. [Project Overview](#📖-project-overview)  
 2. [Application of Python Concepts and Libraries](#🛠️-application-of-python-concepts-and-libraries)  
 3. [SDG Integration](#🌍-sdg-integration-goal-12---responsible-consumption-and-production)  
@@ -21,7 +20,7 @@
 7. [General Instructions](#📌-general-instructions)  
 
 -----
-# 🛠️ Application of Python Concepts and Libraries
+## 🛠️ Application of Python Concepts and Libraries
 The Xpense Tracker application is designed with fundamental Python concepts and libraries to deliver a simple, efficient, and user-friendly experience:
 
 ### 1. Core Python Concepts
@@ -54,7 +53,7 @@ The Xpense Tracker application is designed with fundamental Python concepts and 
 
 ---
 
-# 🌍 SDG Integration: Goal 12 - Responsible Consumption and Production 
+## 🌍 SDG Integration: Goal 12 - Responsible Consumption and Production 
 Xpense Tracker supports **SDG Goal 12** by promoting responsible financial habits.
 The program:
 - **Encourages Awareness:** Tracks and categorizes expenses, helping users monitor consumption patterns.
@@ -65,8 +64,8 @@ By addressing these aspects, Xpense Tracker aligns with the global goal of encou
 
 ---
 
-# 🚀 Getting Started
-## 1. Prerequisite:
+## 🚀 Getting Started
+### 1. Prerequisite:
 - Install **Python 3.6** or above: [Download Python](https://www.python.org/downloads/)
 - Install **Visual Studio Code**: [Download VS Code](https://code.visualstudio.com/)
 - Ensure the `expenses.json` file is in the working directory (or let the program create it on the first run).
@@ -99,7 +98,7 @@ XPENSE TRACKER MENU
 7. Exit
 ```
 
-# 🌟 **Menu Options**
+## 🌟 **Menu Options**
 
 | **Feature**                   | **Description**                                                                      |
 |------------------------------ |--------------------------------------------------------------------------------------|
