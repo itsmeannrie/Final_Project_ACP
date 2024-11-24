@@ -137,7 +137,12 @@ XPENSE TRACKER MENU
 | 2   | fare                            | ₱200.00    | 11-22-2024 | Transporation   |
 +-----+---------------------------------+------------+------------+-----------------+
 ```
-
+## **Delete Expense Example** 
+```plaintext
+Enter the no. of the expense to delete: 1
+Deleted expense: Lunch - ₱50.00 on 11-22-2024 [Food]  
+-------- Data saved successfully. --------
+```
 ## **Generate Monthly Report Example**
 ```
 ===== EXPENSE REPORT BY MONTH =====
@@ -163,7 +168,16 @@ TOTAL EXPENSES: ₱1100.00
 REMAINING BUDGET: ₱-100.00  
 WARNING: Over budget by ₱100.00!
 ```
+## **Modify Montly Budget Example:**
+```plaintext
+Modify Monthly Budget:
+Enter the year (ex: 2024): 2024
+Enter the month number (1-12): 11
+Enter the new budget for November 2024: 1000
 
+Budget for November 2024 updated to: ₱1000.00  
+-------- Data saved successfully. --------
+```
 -------
 ## 📌 **General Instructions**  
 - **Step-by-Step Guide:** Follow the on-screen prompts for each menu option.  
