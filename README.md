@@ -6,7 +6,7 @@
 
 **Xpense Tracker** is a Python-based financial management system designed to help users effectively track their expenses, set monthly budgets, and monitor spending patterns. It integrates user-friendly features like categorizing expenses, generating detailed reports, and alerting users when their spending exceeds budget limits. With a focus on financial literacy and empowerment, this project supports individuals in making informed decisions about their finances.
 
-With an emphasis on simplicity and usability, Xpense Tracker helps users stay informed, disciplined, and financially literate. The system aligns with the United Nations Sustainable Development Goals (SDGs) by promoting responsible consumption and production practices.
+ Xpense Tracker helps users stay informed, disciplined, and financially literate. The system aligns with the United Nations Sustainable Development Goals (SDGs) by promoting responsible consumption and production practices.
 
 ---
 
