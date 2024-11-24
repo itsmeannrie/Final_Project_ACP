@@ -12,7 +12,7 @@
 ---
 ## 🗂 **Table of Contents**
 1. [Project Overview](#📖-project-overview)  
-2. [Application of Python Concepts and Libraries](#🛠️-application-of-python-concepts-and-libraries)  
+2. [Application of Python Concepts and Libraries](#%F0%9F%9A%80-getting-started)
 3. [SDG Integration](#🌍-sdg-integration-goal-12---responsible-consumption-and-production)  
 4. [Getting Started](#🚀-getting-started)  
 5. [Menu Options](#🌟-menu-options)  
