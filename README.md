@@ -113,7 +113,7 @@ XPENSE TRACKER MENU
 ---
 # 📊 **Sample Outputs**
 <details>
-  <summary>View Full Example:</summary>
+  <summary>View Examples:</summary>
    
 ## **Adding Expense Example** 
    **Output:**
@@ -162,7 +162,9 @@ Transport        ₱ 500.00         ₱ 1000.00       ₱ -100.00            Ove
 TOTAL EXPENSES: ₱1100.00  
 REMAINING BUDGET: ₱-100.00  
 WARNING: Over budget by ₱100.00!
-``` 
+```
+<details>
+   
 ---
 ## 📌 **General Instructions**  
 - **Step-by-Step Guide:** Follow the on-screen prompts for each menu option.  
