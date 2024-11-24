@@ -9,7 +9,18 @@
  Xpense Tracker helps users stay informed, disciplined, and financially literate. The system aligns with the United Nations Sustainable Development Goals (SDGs) by promoting responsible consumption and production practices.
 
 ---
+## 🗂 **Table of Contents**
 
+1. [Project Overview](#📖-project-overview)  
+2. [Application of Python Concepts and Libraries](#🛠️-application-of-python-concepts-and-libraries)   
+3. [SDG Integration](#🌍-sdg-integration-goal-12---responsible-consumption-and-production)  
+4. [Getting Started](#🚀-getting-started)   
+5. [Using the Program](#4-using-the-program)  
+6. [Menu Options](#🌟-menu-options)  
+7. [Sample Outputs](#📊-sample-outputs)  
+8. [General Instructions](#📌-general-instructions)
+
+-----
 ## 🛠️ Application of Python Concepts and Libraries
 The Xpense Tracker application is designed with fundamental Python concepts and libraries to deliver a simple, efficient, and user-friendly experience:
 
