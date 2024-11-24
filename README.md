@@ -64,9 +64,12 @@ By addressing these aspects, Xpense Tracker aligns with the global goal of encou
 ```bash
 git clone https://github.com/your-username/xpense-tracker.git
 cd xpense-tracker
+```
 
 ## 3. Run the program:
 Open a terminal or command prompt.
 Execute the following command:
+```bash
 python main.py
+```
 
