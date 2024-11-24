@@ -130,15 +130,7 @@ Transport       ₱200.00         ₱500.00     ₱226.00              Within Bu
 TOTAL EXPENSES: ₱274.00
 REMAINING BUDGET: ₱226.00
 ```
-
-## **Edge Case: Overspending**
-### **Scenario: User exceeds their monthly budget**
-- **Monthly Budget:** ₱1000.00
-- **Expenses:**  
-  - ₱600.00 on Food  
-  - ₱500.00 on Transport  
-
-### **Resulting Report Output**
+### **Overspending: Monthly Report Example**
 ```plaintext
 ===== EXPENSE REPORT: November 2024 =====
 Category         Amount Spent     Budget          Remaining Budget     Status
