@@ -1,11 +1,5 @@
 # Xpense Tracker Logo#
 ![Xpense Tracker Logo](./Logo.png "Xpense Tracker Logo")
-<div align="center">
-    <img src="./Logo.png" alt="Xpense Tracker Logo" width="300">
-</div>
-
-
-
 
 
 -----------------
