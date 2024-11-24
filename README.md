@@ -1,5 +1,5 @@
 # Xpense Tracker
-![Xpense Tracker Logo](./Logo.png "Xpense Tracker Logo")
+![Xpense Tracker Logo](./logo.png "Xpense Tracker Logo")
 
 
 -----------------
