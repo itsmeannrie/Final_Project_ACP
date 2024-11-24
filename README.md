@@ -181,7 +181,7 @@ Budget for November 2024 updated to: ₱1000.00
 </details>
 
 -------
-### 📌 **General Instructions**  
+## 📌 **General Instructions**  
 - **Step-by-Step Guide:** Follow the on-screen prompts for each menu option.  
 - **Input Validation:** Enter values carefully—any invalid input will prompt you to retry.  
 - **Automatic Data Saving:** Your data is saved after every operation.
