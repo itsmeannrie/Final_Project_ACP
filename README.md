@@ -1,6 +1,10 @@
-# Xpense Tracker
+# Xpense Tracker Logo
+![Xpense Tracker Logo](https://www.canva.com/design/DAGXZdQPg48/lwWAEqXXaITGwoARBovSrg/view?utm_content=DAGXZdQPg48&utm_campaign=share_your_design&utm_medium=link&utm_source=shareyourdesignpanel)
+<div align="center">
+    <img src="https://www.canva.com/design/DAGXZdQPg48/lwWAEqXXaITGwoARBovSrg/view?utm_content=DAGXZdQPg48&utm_campaign=share_your_design&utm_medium=link&utm_source=shareyourdesignpanel" alt="Xpense Tracker Logo" width="600">
+</div>
 
-   LOGO PART
+
 -----------------
 ## 📖 Project Overview
 
@@ -65,7 +69,7 @@ By addressing these aspects, Xpense Tracker aligns with the global goal of encou
 ---
 
 ## 🚀 Getting Started
-## 1. Prerequisites:
+## 1. Prerequisite:
 - Install **Python 3.6** or above: [Download Python](https://www.python.org/downloads/)
 - Install **Visual Studio Code**: [Download VS Code](https://code.visualstudio.com/)
 - Ensure the `expenses.json` file is in the working directory (or let the program create it on the first run).
