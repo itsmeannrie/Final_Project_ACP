@@ -113,7 +113,7 @@ XPENSE TRACKER MENU
 ---
 # 📊 **Sample Outputs**
 <details>
-  <summary>View Examples:</summary>
+  <summary>View Examples:
    
 ## **Adding Expense Example** 
    **Output:**
@@ -163,9 +163,9 @@ TOTAL EXPENSES: ₱1100.00
 REMAINING BUDGET: ₱-100.00  
 WARNING: Over budget by ₱100.00!
 ```
-<details>
-   
----
+
+</summary>
+-------
 ## 📌 **General Instructions**  
 - **Step-by-Step Guide:** Follow the on-screen prompts for each menu option.  
 - **Input Validation:** Enter values carefully—any invalid input will prompt you to retry.  
