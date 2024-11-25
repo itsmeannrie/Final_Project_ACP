@@ -10,7 +10,18 @@
  Xpense Tracker helps users stay informed, disciplined, and financially literate. The system aligns with the United Nations Sustainable Development Goal 12 by encouraging mindful financial habits through responsible tracking and budgeting.
 
 ---
-## 🗂 **Table of Contents**
+## 🖥️ Features
+
+- **User-Friendly Interface:** Navigate effortlessly with a clear, menu-driven system.  
+- **Expense Categorization:** Organize expenses into predefined categories for better insights.  
+- **Automatic Data Persistence:** Save data seamlessly to ensure consistent tracking over time.  
+- **Budget Comparison and Alerts:** Compare expenses against budgets and receive warnings for overspending.  
+- **Detailed Monthly Reports:** Generate comprehensive financial summaries to track spending patterns.  
+- **Reset Functionality:** Start fresh anytime by resetting all data with ease.
+- 
+------
+
+## 🗂 Table of Contents
 1. [Project Overview](#📖-project-overview)  
 2. [Application of Python Concepts and Libraries](https://github.com/itsmeannrie/Final_Project_ACP?tab=readme-ov-file#:~:text=%F0%9F%9B%A0%EF%B8%8F-,Application%20of%20Python%20Concepts%20and%20Libraries,-The%20Xpense%20Tracker)
 3. [SDG Integration](#🌍-sdg-integration-goal-12---responsible-consumption-and-production)  
@@ -45,11 +56,23 @@ The Xpense Tracker application is designed with fundamental Python concepts and 
 - **`collections`:** Simplifies advanced data handling with `DefaultDict`, making data grouping and calculations easier.
 ### 4. Error Handling
 - **Input Validation:**
-  - Prevents invalid inputs by verifying numeric values, correctly formatted dates, and valid menu options.
+- Ensures all user inputs are correctly formatted to prevent unexpected errors:
+  - **Numeric Inputs:** Functions like `get_valid_amount` validate that only numeric values are accepted for expenses and budgets.
+  - **Date Validation:** The `get_date_input` function ensures users enter dates in the correct `MM-DD-YYYY` format using the `datetime` module.
+  - **Menu Choices:** User selections for categories and menu options are validated to prevent invalid inputs.
 - **File Handling:**
-  - Detects and manages issues like missing or corrupted files, ensuring the program starts with a fresh dataset if needed.
+  - Uses try-except blocks to manage missing or corrupted files:
+    Initializes fresh data if expenses.json is missing.
+    Resets corrupted files to maintain functionality.
+-**Exception Handling**
+- Detects and gracefully handles common runtime errors:
+  - **Invalid Numeric Inputs:** Prevents crashes when users enter non-numeric values where numbers are required (ex: budgets or expense amounts).
+  - **Out-of-Range Inputs:** Ensures user inputs like category selections are within valid ranges.
+  - **Empty Data Scenarios:** Handles operations on empty datasets (ex: generating reports or viewing expenses) by displaying user-friendly messages.
 - **User Feedback:**
-  - Provides clear and actionable error messages, helping users correct mistakes and continue without interruptions.
+- Provides clear and actionable feedback for errors:
+  - **Input Prompts:** Users are guided to correct invalid inputs without terminating the program.
+  - **Error Messages:** Messages like "Invalid input. Please enter a numeric value" help users understand and fix their mistakes.
 
 ---
 
@@ -157,7 +180,9 @@ REMAINING BUDGET: ₱226.00
 ```
 ### **Overspending: Monthly Report Example**
 ```plaintext
-===== EXPENSE REPORT: November 2024 =====
+===== EXPENSE REPORT BY MONTH =====
+
+ *********** November 2024 **********
 Category         Amount Spent     Budget          Remaining Budget     Status
 --------------------------------------------------------------------------------
 Food             ₱ 600.00         ₱ 1000.00       ₱ -100.00            Over Budget
@@ -177,6 +202,28 @@ Enter the new budget for November 2024: 1000
 Budget for November 2024 updated to: ₱1000.00  
 -------- Data saved successfully. --------
 ```
+## **Error handling Example:**
+```
+EXAMPLE 1: Out-of-Range Category Selection
+
+Categories:
+1. Food
+2. Transport
+3. Entertainment
+4. Utilities
+5. Other
+Choose a category number: 6
+Invalid choice. Please select a valid category number.
+Choose a category number: 2
+```
+```
+EXAMPLE 2: Invalid Date Format
+
+Enter date (MM-DD-YYYY): 22-11-2024
+Invalid date format. Please enter in MM-DD-YYYY format.
+Enter date (MM-DD-YYYY): 11-22-2024
+```
+ 
 </details>
 
 -------
@@ -186,4 +233,9 @@ Budget for November 2024 updated to: ₱1000.00
 - **Automatic Data Saving:** Your data is saved after every operation.
 ------
 ## 🎉 Conclusion
-Xpense Tracker simplifies financial management by helping users track expenses and stay within their budgets. Let's Spend Wise!
+Xpense Tracker simplifies financial management by helping users track expenses and stay within their budgets. 
+                             Let's Spend Wise!
+
+
+
+
