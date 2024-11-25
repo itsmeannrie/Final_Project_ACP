@@ -24,10 +24,10 @@
 ## 🗂 Table of Contents
 1. [Project Overview](https://github.com/itsmeannrie/Final_Project_ACP/blob/main/README.md#:~:text=Xpense%20Tracker-,%F0%9F%93%96%20Project%20Overview,-Xpense%20Tracker%20is)
 2. [Features](https://github.com/itsmeannrie/Final_Project_ACP/blob/main/README.md#:~:text=tracking%20and%20budgeting.-,%F0%9F%96%A5%EF%B8%8F%20Features,-User%2DFriendly%20Interface)
-3. [Application of Python Concepts and Libraries](https://github.com/itsmeannrie/Final_Project_ACP/blob/main/README.md#:~:text=Instructions,Concepts%20and%20Libraries)
+3. [Application of Python Concepts and Libraries](https://github.com/itsmeannrie/Final_Project_ACP/blob/main/README.md#%EF%B8%8F-application-of-python-concepts-and-libraries)
 4. [SDG Integration](https://github.com/itsmeannrie/Final_Project_ACP/blob/main/README.md#:~:text=%F0%9F%8C%8D%20SDG%20Integration%3A%20Goal%2012%20%2D%20Responsible%20Consumption%20and%20Production)  
 5. [Getting Started](https://github.com/itsmeannrie/Final_Project_ACP/blob/main/README.md#:~:text=mindful%20consumption%20practices.-,%F0%9F%9A%80%20Getting%20Started,-1.%20Prerequisite%3A)  
-6. [Menu Options](#🌟-menu-options)  
+6. [Menu Options](https://github.com/itsmeannrie/Final_Project_ACP/blob/main/README.md#-menu-options)  
 7. [Sample Outputs](https://github.com/itsmeannrie/Final_Project_ACP/blob/main/README.md#:~:text=the%20program%20safely.-,%F0%9F%93%8A%20Sample%20Outputs,-View%20Examples%3A)  
 8. [General Instructions](https://github.com/itsmeannrie/Final_Project_ACP/blob/main/README.md#-general-instructions)
 9. [Conclusion](https://github.com/itsmeannrie/Final_Project_ACP/blob/main/README.md#-conclusion)  
@@ -58,7 +58,7 @@ The Xpense Tracker application is designed with fundamental Python concepts and 
 - **`collections`:** Simplifies advanced data handling with `DefaultDict`, making data grouping and calculations easier.
 ### 4. Error Handling
 - **Input Validation:**
-- Ensures all user inputs are correctly formatted to prevent unexpected errors:
+  Ensures all user inputs are correctly formatted to prevent unexpected errors:
   - **Numeric Inputs:** Functions like `get_valid_amount` validate that only numeric values are accepted for expenses and budgets.
   - **Date Validation:** The `get_date_input` function ensures users enter dates in the correct `MM-DD-YYYY` format using the `datetime` module.
   - **Menu Choices:** User selections for categories and menu options are validated to prevent invalid inputs.
@@ -67,12 +67,12 @@ The Xpense Tracker application is designed with fundamental Python concepts and 
     Initializes fresh data if expenses.json is missing.
     Resets corrupted files to maintain functionality.
 -**Exception Handling**
-- Detects and gracefully handles common runtime errors:
+  Detects and gracefully handles common runtime errors:
   - **Invalid Numeric Inputs:** Prevents crashes when users enter non-numeric values where numbers are required (ex: budgets or expense amounts).
   - **Out-of-Range Inputs:** Ensures user inputs like category selections are within valid ranges.
   - **Empty Data Scenarios:** Handles operations on empty datasets (ex: generating reports or viewing expenses) by displaying user-friendly messages.
 - **User Feedback:**
-- Provides clear and actionable feedback for errors:
+  Provides clear and actionable feedback for errors:
   - **Input Prompts:** Users are guided to correct invalid inputs without terminating the program.
   - **Error Messages:** Messages like "Invalid input. Please enter a numeric value" help users understand and fix their mistakes.
 
