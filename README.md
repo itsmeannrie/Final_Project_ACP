@@ -18,7 +18,7 @@
 - **Budget Comparison and Alerts:** Compare expenses against budgets and receive warnings for overspending.  
 - **Detailed Monthly Reports:** Generate comprehensive financial summaries to track spending patterns.  
 - **Reset Functionality:** Start fresh anytime by resetting all data with ease.
-- 
+  
 ------
 
 ## 🗂 Table of Contents
