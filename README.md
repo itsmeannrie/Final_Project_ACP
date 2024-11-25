@@ -95,20 +95,12 @@ By addressing these aspects,Xpense Tracker aligns with the global goal of encour
 - Install **Visual Studio Code**: [Download VS Code](https://code.visualstudio.com/)
 - Ensure the `expenses.json` file is in the working directory (or let the program create it on the first run).
 
-## 2. Clone or Download the Repository:
-```bash
-git clone https://github.com/your-username/xpense-tracker.git
-cd xpense-tracker
-```
-
-## 3. Run the program:
-Open a terminal or command prompt.
-Execute the following command:
-```bash
-main.py
-```
-## 4. Using the Program
-
+## 2. Run the program:
+   - Open a Terminal or Command Prompt
+   - Navigate to the directory containing the `main.py` file.
+   - Copy and paste the raw code to execute the program.
+     
+## 3. Using the Program
 Once launched, the program will prompt you to enter your name and guide you through a menu of options.  
 Use the corresponding numbers to navigate the menu:
 
