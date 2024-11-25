@@ -105,7 +105,7 @@ cd xpense-tracker
 Open a terminal or command prompt.
 Execute the following command:
 ```bash
-python main.py
+main.py
 ```
 ## 4. Using the Program
 
