@@ -22,13 +22,14 @@
 ------
 
 ## 🗂 Table of Contents
-1. [Project Overview](#📖-project-overview)  
-2. [Application of Python Concepts and Libraries](https://github.com/itsmeannrie/Final_Project_ACP?tab=readme-ov-file#:~:text=%F0%9F%9B%A0%EF%B8%8F-,Application%20of%20Python%20Concepts%20and%20Libraries,-The%20Xpense%20Tracker)
-3. [SDG Integration](#🌍-sdg-integration-goal-12---responsible-consumption-and-production)  
-4. [Getting Started](#🚀-getting-started)  
-5. [Menu Options](#🌟-menu-options)  
-6. [Sample Outputs](#📊-sample-outputs)  
-7. [General Instructions](#📌-general-instructions)  
+1. [Project Overview](#📖-project-overview)
+2. [Features](#)
+3. [Application of Python Concepts and Libraries](https://github.com/itsmeannrie/Final_Project_ACP?tab=readme-ov-file#:~:text=%F0%9F%9B%A0%EF%B8%8F-,Application%20of%20Python%20Concepts%20and%20Libraries,-The%20Xpense%20Tracker)
+4. [SDG Integration](#🌍-sdg-integration-goal-12---responsible-consumption-and-production)  
+5. [Getting Started](#🚀-getting-started)  
+6. [Menu Options](#🌟-menu-options)  
+7. [Sample Outputs](#📊-sample-outputs)  
+8. [General Instructions](#📌-general-instructions)  
 
 -----
 ## 🛠️ Application of Python Concepts and Libraries
