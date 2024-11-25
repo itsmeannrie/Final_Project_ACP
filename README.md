@@ -22,7 +22,7 @@
 ------
 
 ## 🗂 Table of Contents
-1. [Project Overview](#📖-project-overview)
+1. [Project Overview](https://github.com/itsmeannrie/Final_Project_ACP/blob/main/README.md#:~:text=Xpense%20Tracker-,%F0%9F%93%96%20Project%20Overview,-Xpense%20Tracker%20is)
 2. [Features](#)
 3. [Application of Python Concepts and Libraries](https://github.com/itsmeannrie/Final_Project_ACP?tab=readme-ov-file#:~:text=%F0%9F%9B%A0%EF%B8%8F-,Application%20of%20Python%20Concepts%20and%20Libraries,-The%20Xpense%20Tracker)
 4. [SDG Integration](#🌍-sdg-integration-goal-12---responsible-consumption-and-production)  
