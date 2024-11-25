@@ -69,10 +69,10 @@ def load_expenses():
     except json.JSONDecodeError:
         print("\n------ Data corrupted. Starting fresh. ------")
     
-    # Check if the current month budget is set
+    # To Check if the current month budget is set
     current_year_month = (datetime.datetime.now().year, datetime.datetime.now().month)
     if current_year_month not in user_info["monthly_budgets"]:
-        set_user_budget()  # Prompt user for the current month's budget if not set
+        set_user_budget()  
 
 def save_expenses():
     """Save expenses and user info to a JSON file."""
