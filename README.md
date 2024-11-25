@@ -139,9 +139,26 @@ XPENSE TRACKER MENU
 # 📊 **Sample Outputs**
 <details>
   <summary>View Examples:</summary>
+ 
+ ## **Welcome Message**
+```
+╔══════════════════════════════════════════════════╗
+║            Welcome to Xpense Tracker             ║
+╚══════════════════════════════════════════════════╝
+
+Please enter your name: RIE
+
+                   Hello, RIE!
+                Let's get started.
+
+══════════════════════════════════════════════════
+
+------ Expenses and budget loaded successfully. ------
+```
+
    
 ## **Adding Expense Example** 
-  ```plaintext
+  ```
   --- Adding a New Expense ---
   New Expense Added:
     Description: Lunch
@@ -151,7 +168,7 @@ XPENSE TRACKER MENU
 ```
 
 ## **View List of Expense Example**  
-```plaintext
+```
 -------------------------- LIST OF EXPENSES ----------------------------------------
 +-----+---------------------------------+------------+------------+-----------------+
 | No. | Description                     | Amount     | Date       | Category        |
@@ -162,7 +179,7 @@ XPENSE TRACKER MENU
 +-----+---------------------------------+------------+------------+-----------------+
 ```
 ## **Delete Expense Example** 
-```plaintext
+```
 Enter the no. of the expense to delete: 1
 Deleted expense: Lunch - ₱50.00 on 11-22-2024 [Food]  
 -------- Data saved successfully. --------
@@ -181,7 +198,7 @@ TOTAL EXPENSES: ₱274.00
 REMAINING BUDGET: ₱226.00
 ```
 ### **Overspending: Monthly Report Example**
-```plaintext
+```
 ===== EXPENSE REPORT BY MONTH =====
 
  *********** November 2024 **********
@@ -195,7 +212,7 @@ REMAINING BUDGET: ₱-100.00
 WARNING: Over budget by ₱100.00!
 ```
 ## **Modify Monthly Budget Example:**
-```plaintext
+```
 Modify Monthly Budget:
 Enter the year (ex: 2024): 2024
 Enter the month number (1-12): 11
