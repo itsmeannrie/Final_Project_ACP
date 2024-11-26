@@ -46,15 +46,15 @@ The Xpense Tracker application is designed with fundamental Python concepts and 
   - Loops (`while`) maintain interactivity, allowing the program to run continuously until the user exits.
 
 - **Enumerations:**
-  - The `Enum` class standardizes expense categories (ex: Food, Transport) for better data consistency and validation.
+  - The `Enum` class is used to define a fixed set of expense categories (ex: Food, Transport) for better data consistency and validation. It also makes the code more readable and easier to maintain.
 
 ### 2. Data Structures
-- **Lists:** Store expense entries dynamically, enabling efficient addition, modification, and deletion.
-- **Dictionaries:** Organize user information and monthly budgets, offering quick access and updates.
-- **DefaultDict:** From the `collections` module,  it simplifies data grouping and calculations, especially for monthly expense summaries.
+- **Lists:** Stores all expense entries dynamically, enabling efficient addition, modification, and deletion.
+- **Dictionaries:** Organize user information and monthly budgets, offering quick access and updates of user's data throughout the program.
+- **DefaultDict:** The defaultdict from the collections module is used to group expenses by month and category. This eliminates the need for manual checks to ensure that a category or month exists in the dictionary.
 ### 3. Key Libraries
 - **`datetime`:** Validates and handles dates for accurate logging and tracking.
-- **`json`:**  Ensures data persistence by saving user details and expense records in a structured format for future use.
+- **`json`:** The json module provides functionality for saving and loading data in a structured format (JSON). It allows user information (ex: name, savings balance, monthly budgets) and expenses to persist across program runs by saving them to a file.
 - **`collections`:** Simplifies advanced data handling with `DefaultDict`, making data grouping and calculations easier.
 ### 4. Error Handling
 - **Input Validation:**
