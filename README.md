@@ -113,8 +113,9 @@ By addressing these aspects,Xpense Tracker aligns with the global goal of encour
 
    Enter your choice: 
 ```
+### **Sample Output For User Authentication**
 <details>
-  <summary>View Sample Output for User Authentication:</summary>
+  <summary>View Examples:</summary>
  
 ```
 #1
@@ -204,7 +205,7 @@ Enter your choice:
 | **Exit**                      | Save your progress and exit the program safely.                                      |
 
 ---
-# 📊 **Sample Outputs**
+# 📊 **Sample Outputs For Menu Options**
 <details>
   <summary>View Examples:</summary>
    
@@ -293,7 +294,10 @@ Enter date (MM-DD-YYYY): 22-11-2024
 Invalid date format. Please enter in MM-DD-YYYY format.
 Enter date (MM-DD-YYYY): 11-22-2024
 ```
- 
+# Log Out
+```
+
+```
 </details>
 
 -------
