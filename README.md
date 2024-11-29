@@ -27,7 +27,7 @@
 3. [Application of Python Concepts and Libraries](https://github.com/itsmeannrie/Final_Project_ACP/blob/main/README.md#%EF%B8%8F-application-of-python-concepts-and-libraries)
 4. [SDG Integration](https://github.com/itsmeannrie/Final_Project_ACP/blob/main/README.md#:~:text=%F0%9F%8C%8D%20SDG%20Integration%3A%20Goal%2012%20%2D%20Responsible%20Consumption%20and%20Production) 
 6. [Getting Started](https://github.com/itsmeannrie/Final_Project_ACP/blob/main/README.md#:~:text=mindful%20consumption%20practices.-,%F0%9F%9A%80%20Getting%20Started,-1.%20Prerequisite%3A)
-7. [Sample Output For User Authentication]( ) 
+7. [Sample Output For User Authentication](https://github.com/itsmeannrie/Final_Project_ACP/blob/main/README.md#-sample-output-for-user-authentication) 
 8. [Menu Options](https://github.com/itsmeannrie/Final_Project_ACP/blob/main/README.md#-menu-options)  
 9. [Sample Outputs For Menu Options](https://github.com/itsmeannrie/Final_Project_ACP/blob/main/README.md#:~:text=the%20program%20safely.-,%F0%9F%93%8A%20Sample%20Outputs,-View%20Examples%3A)  
 10. [General Instructions](https://github.com/itsmeannrie/Final_Project_ACP/blob/main/README.md#-general-instructions)
