@@ -113,9 +113,8 @@ By addressing these aspects,Xpense Tracker aligns with the global goal of encour
 
    Enter your choice: 
 ```
-## Sample Output for User Authentication
 <details>
-  <summary>View Examples:</summary>
+  <summary>View Sample Output for User Authentication:</summary>
  
 ```
 #1
