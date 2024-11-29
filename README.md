@@ -38,7 +38,7 @@ The Xpense Tracker application is designed with fundamental Python concepts and 
 
 ### 1. Core Python Concepts
 - **Functions:**
-  - Modular functions (`add_expense`, `view_expenses`, `generate_report`) divide the program into manageable components, improving readability.
+  - Modular functions ( ex: `add_expense`, `view_expenses`, `generate_report`) divide the program into manageable components, improving readability.
   - Utility functions like `get_valid_amount` and `get_date_input` ensure user inputs are accurate and correctly formatted.
 
 - **Control Flow:**
@@ -99,22 +99,101 @@ By addressing these aspects,Xpense Tracker aligns with the global goal of encour
    - Copy and paste the raw code to execute the program.
      
 ## 3. Using the Program
-Once launched, the program will prompt you to enter your name and guide you through a menu of options.  
-Use the corresponding numbers to navigate the menu:
+3.1 Once launched, the program will prompt you to enter your name and guide you through a user authentication options. 
 
-```plaintext
-XPENSE TRACKER MENU
+```
+╔════════════════════════════════════════════════════════════════════════════════╗
+
+║                           Welcome to Xpense Tracker                            ║
+
+╚════════════════════════════════════════════════════════════════════════════════╝
+1. Sign Up
+2. Log In
+3. Exit
+
+   Enter your choice: 
+```
+## Sample Output for User Authentication
+<details>
+  <summary>View Examples:</summary>
+ 
+```
+#1
+╔════════════════════════════════════════════════════════════════════════════════╗
+
+║                           Welcome to Xpense Tracker                            ║
+
+╚════════════════════════════════════════════════════════════════════════════════╝
+1. Sign Up
+2. Log In
+3. Exit
+
+   Enter your choice: 1
+-------- Sign Up --------
+
+        Enter your full name: Annrie Rosales
+        Choose a username: itsyourrie   
+        Choose a password (at least 8 characters): 01234567 
+
+Sign-up successful! You can now log in.
+```
+# 2
+```
+╔════════════════════════════════════════════════════════════════════════════════╗
+
+║                           Welcome to Xpense Tracker                            ║
+
+╚════════════════════════════════════════════════════════════════════════════════╝
+1. Sign Up
+2. Log In
+3. Exit
+
+   Enter your choice: 2
+LOG IN
+        Enter your username: itsyourrie
+        Enter your password: 01234567
+        Welcome, Annrie Rosales!
+
+------ Expenses and budget loaded successfully. ------
+
+══════════════════════════════════════════════════
+```
+# 3
+```
+╔════════════════════════════════════════════════════════════════════════════════╗
+
+║                           Welcome to Xpense Tracker                            ║
+
+╚════════════════════════════════════════════════════════════════════════════════╝
+1. Sign Up
+2. Log In
+3. Exit
+
+   Enter your choice: 3
+        Goodbye!
+
+══════════════════════════════════════════════════
+```
+</details>
+
+3.2 After log in the user is propmt to Expense Tracker Menu
+```
+════════════════════════════════════════════════
+             EXPENSE TRACKER MENU
+
+════════════════════════════════════════════════
 1. Add Expense
-2. View List of Expenses
-3. Delete Expense
-4. Generate Monthly Report
-5. Modify Monthly Budget
+2. View Expenses
+3. Delete Expenses
+4. Modify Monthly Budget
+5. Generate Monthly Report
 6. Reset Data
-7. Exit
+7. Log Out
+
+Enter your choice:
 ```
 
 ## 🌟 **Menu Options**
-
 | **Feature**                   | **Description**                                                                      |
 |------------------------------ |--------------------------------------------------------------------------------------|
 | **Add Expense**               | Log a new expense by selecting a category, entering a description, amount, and date. |
@@ -129,23 +208,6 @@ XPENSE TRACKER MENU
 # 📊 **Sample Outputs**
 <details>
   <summary>View Examples:</summary>
- 
- ## **Welcome Message**
-```
-╔══════════════════════════════════════════════════╗
-║            Welcome to Xpense Tracker             ║
-╚══════════════════════════════════════════════════╝
-
-Please enter your name: RIE
-
-                   Hello, RIE!
-                Let's get started.
-
-══════════════════════════════════════════════════
-
------- Expenses and budget loaded successfully. ------
-```
-
    
 ## **Adding Expense Example** 
   ```
