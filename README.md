@@ -295,10 +295,6 @@ Enter date (MM-DD-YYYY): 22-11-2024
 Invalid date format. Please enter in MM-DD-YYYY format.
 Enter date (MM-DD-YYYY): 11-22-2024
 ```
-# Log Out
-```
-
-```
 </details>
 
 -------
