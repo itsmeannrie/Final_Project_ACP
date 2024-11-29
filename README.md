@@ -113,13 +113,12 @@ By addressing these aspects,Xpense Tracker aligns with the global goal of encour
 
    Enter your choice: 
 ```
+
 ### 📘 **Sample Output For User Authentication**
 <details>
   <summary>View Examples:</summary>
  
-```
-```
-#1 SIGN UP
+#1 SIGN UP 
 ```
 ╔════════════════════════════════════════════════════════════════════════════════╗
 
