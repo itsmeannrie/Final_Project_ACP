@@ -25,12 +25,13 @@
 1. [Project Overview](https://github.com/itsmeannrie/Final_Project_ACP/blob/main/README.md#:~:text=Xpense%20Tracker-,%F0%9F%93%96%20Project%20Overview,-Xpense%20Tracker%20is)
 2. [Features](https://github.com/itsmeannrie/Final_Project_ACP/blob/main/README.md#:~:text=tracking%20and%20budgeting.-,%F0%9F%96%A5%EF%B8%8F%20Features,-User%2DFriendly%20Interface)
 3. [Application of Python Concepts and Libraries](https://github.com/itsmeannrie/Final_Project_ACP/blob/main/README.md#%EF%B8%8F-application-of-python-concepts-and-libraries)
-4. [SDG Integration](https://github.com/itsmeannrie/Final_Project_ACP/blob/main/README.md#:~:text=%F0%9F%8C%8D%20SDG%20Integration%3A%20Goal%2012%20%2D%20Responsible%20Consumption%20and%20Production)  
-5. [Getting Started](https://github.com/itsmeannrie/Final_Project_ACP/blob/main/README.md#:~:text=mindful%20consumption%20practices.-,%F0%9F%9A%80%20Getting%20Started,-1.%20Prerequisite%3A)  
-6. [Menu Options](https://github.com/itsmeannrie/Final_Project_ACP/blob/main/README.md#-menu-options)  
-7. [Sample Outputs](https://github.com/itsmeannrie/Final_Project_ACP/blob/main/README.md#:~:text=the%20program%20safely.-,%F0%9F%93%8A%20Sample%20Outputs,-View%20Examples%3A)  
-8. [General Instructions](https://github.com/itsmeannrie/Final_Project_ACP/blob/main/README.md#-general-instructions)
-9. [Conclusion](https://github.com/itsmeannrie/Final_Project_ACP/blob/main/README.md#-conclusion)  
+4. [SDG Integration](https://github.com/itsmeannrie/Final_Project_ACP/blob/main/README.md#:~:text=%F0%9F%8C%8D%20SDG%20Integration%3A%20Goal%2012%20%2D%20Responsible%20Consumption%20and%20Production) 
+6. [Getting Started](https://github.com/itsmeannrie/Final_Project_ACP/blob/main/README.md#:~:text=mindful%20consumption%20practices.-,%F0%9F%9A%80%20Getting%20Started,-1.%20Prerequisite%3A)
+7. [Sample Output For User Authentication]( ) 
+8. [Menu Options](https://github.com/itsmeannrie/Final_Project_ACP/blob/main/README.md#-menu-options)  
+9. [Sample Outputs For Menu Options](https://github.com/itsmeannrie/Final_Project_ACP/blob/main/README.md#:~:text=the%20program%20safely.-,%F0%9F%93%8A%20Sample%20Outputs,-View%20Examples%3A)  
+10. [General Instructions](https://github.com/itsmeannrie/Final_Project_ACP/blob/main/README.md#-general-instructions)
+11. [Conclusion](https://github.com/itsmeannrie/Final_Project_ACP/blob/main/README.md#-conclusion)  
 
 -----
 ## 🛠️ Application of Python Concepts and Libraries
@@ -99,8 +100,7 @@ By addressing these aspects,Xpense Tracker aligns with the global goal of encour
    - Copy and paste the raw code to execute the program.
      
 ## 3. Using the Program
-3.1 Once launched, the program will prompt you to enter your name and guide you through a user authentication options. 
-
+3.1 Once launched, the program greets the user with a welcoming message and presents them a user Authentication options.
 ```
 ╔════════════════════════════════════════════════════════════════════════════════╗
 
@@ -176,7 +176,7 @@ LOG IN
 ```
 </details>
 
-3.2 After log in the user is propmt to Expense Tracker Menu
+3.2 After logging in, the user is directed to the Expense Tracker Menu.
 ```
 ════════════════════════════════════════════════
              EXPENSE TRACKER MENU
@@ -202,7 +202,7 @@ Enter your choice:
 | **Generate Monthly Report**   | View categorized expense summaries and compare them to monthly budgets.              |
 | **Modify Monthly Budget**     | Adjust your budget for any specific month as needed.                                 |
 | **Reset Data**                | Clear all stored data to start fresh.                                                |
-| **Exit**                      | Save your progress and exit the program safely.                                      |
+| **Log Out**                   | Save your progress and exit the program safely.                                      |
 
 ---
 # 📊 **Sample Outputs For Menu Options**
