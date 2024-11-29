@@ -118,7 +118,9 @@ By addressing these aspects,Xpense Tracker aligns with the global goal of encour
   <summary>View Examples:</summary>
  
 ```
-#1
+```
+#1 SIGN UP
+```
 ╔════════════════════════════════════════════════════════════════════════════════╗
 
 ║                           Welcome to Xpense Tracker                            ║
@@ -137,7 +139,7 @@ By addressing these aspects,Xpense Tracker aligns with the global goal of encour
 
 Sign-up successful! You can now log in.
 ```
-# 2
+# 2 LOG IN
 ```
 ╔════════════════════════════════════════════════════════════════════════════════╗
 
@@ -158,7 +160,7 @@ LOG IN
 
 ══════════════════════════════════════════════════
 ```
-# 3
+# 3 EXIT
 ```
 ╔════════════════════════════════════════════════════════════════════════════════╗
 
@@ -176,7 +178,7 @@ LOG IN
 ```
 </details>
 
-3.2 After logging in, the user is directed to the Expense Tracker Menu.
+#### 3.2 After logging in, the user is directed to the Expense Tracker Menu.
 ```
 ════════════════════════════════════════════════
              EXPENSE TRACKER MENU
