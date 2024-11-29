@@ -94,12 +94,12 @@ By addressing these aspects,Xpense Tracker aligns with the global goal of encour
 - Install **Visual Studio Code**: [Download VS Code](https://code.visualstudio.com/)
 - Ensure the `expenses.json` file is in the working directory (or let the program create it on the first run).
 
-## 2. Run the program:
+### 2. Run the program:
    - Open a Terminal or Command Prompt
    - Navigate to the directory containing the `main.py` file.
    - Copy and paste the raw code to execute the program.
      
-## 3. Using the Program
+### 3. Using the Program
 3.1 Once launched, the program greets the user with a welcoming message and presents them a user Authentication options.
 ```
 ╔════════════════════════════════════════════════════════════════════════════════╗
@@ -113,7 +113,7 @@ By addressing these aspects,Xpense Tracker aligns with the global goal of encour
 
    Enter your choice: 
 ```
-### **Sample Output For User Authentication**
+### 📘 **Sample Output For User Authentication**
 <details>
   <summary>View Examples:</summary>
  
