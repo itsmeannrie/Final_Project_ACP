@@ -11,13 +11,13 @@
 
 ---
 ## 🖥️ Features
-
-- **User-Friendly Interface:** Navigate effortlessly with a clear, menu-driven system.  
+- **User Authentication**: Allows users to sign up, log in, and log out securely with username and password.
 - **Expense Categorization:** Organize expenses into predefined categories for better insights.  
 - **Automatic Data Persistence:** Save data seamlessly to ensure consistent tracking over time.  
 - **Budget Comparison and Alerts:** Compare expenses against budgets and receive warnings for overspending.  
 - **Detailed Monthly Reports:** Generate comprehensive financial summaries to track spending patterns.  
 - **Reset Functionality:** Start fresh anytime by resetting all data with ease.
+- **Data Persistence**: User data, including credentials, expenses, and budgets, are stored in JSON files for persistent storage.
   
 ------
 
@@ -45,9 +45,6 @@ The Xpense Tracker application is designed with fundamental Python concepts and 
   - Conditional statements (`if-else`) process user menu selections and handle various program operations.
   - Loops (`while`) maintain interactivity, allowing the program to run continuously until the user exits.
 
-- **Enumerations:**
-  - The `Enum` class is used to define a fixed set of expense categories (ex: Food, Transport) for better data consistency and validation. It also makes the code more readable and easier to maintain.
-
 ### 2. Data Structures
 - **Lists:** Stores all expense entries dynamically, enabling efficient addition, modification, and deletion.
 - **Dictionaries:** Organize user information and monthly budgets, offering quick access and updates of user's data throughout the program.
@@ -56,6 +53,9 @@ The Xpense Tracker application is designed with fundamental Python concepts and 
 - **`datetime`:** Validates and handles dates for accurate logging and tracking.
 - **`json`:** The json module provides functionality for saving and loading data in a structured format (JSON). It allows user information (ex: name, savings balance, monthly budgets) and expenses to persist across program runs by saving them to a file.
 - **`collections`:** Simplifies advanced data handling with `DefaultDict`, making data grouping and calculations easier.
+- **`Enum`:** It is used to define a fixed set of expense categories (ex: Food, Transport) for better data consistency and validation. It also makes the code more readable and easier to maintain.
+- **`hashlib`:** It is used to secure user passwords via hashing, ensuring user data privacy.
+- **`os`:** This module is used to check if a file already exists in a specific directory. This prevents overwriting existing files and ensures you're using the correct file paths when saving or loading data.
 ### 4. Error Handling
 - **Input Validation:**
   Ensures all user inputs are correctly formatted to prevent unexpected errors:
@@ -63,9 +63,7 @@ The Xpense Tracker application is designed with fundamental Python concepts and 
   - **Date Validation:** The `get_date_input` function ensures users enter dates in the correct `MM-DD-YYYY` format using the `datetime` module.
   - **Menu Choices:** User selections for categories and menu options are validated to prevent invalid inputs.
 - **File Handling:**
-  - Uses try-except blocks to manage missing or corrupted files:
-    Initializes fresh data if expenses.json is missing.
-    Resets corrupted files to maintain functionality.
+  - If files are missing or corrupted, try-except blocks are employed to handle the exceptions, ensuring that the program can recover by initializing fresh data or resetting corrupted files.
 -**Exception Handling**
   Detects and gracefully handles common runtime errors:
   - **Invalid Numeric Inputs:** Prevents crashes when users enter non-numeric values where numbers are required (ex: budgets or expense amounts).
