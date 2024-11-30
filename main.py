@@ -14,7 +14,7 @@ user_info = {
     "monthly_budgets": {}
 }
 
-# To store user credentials (username and password)
+# To store user credentials (email and password)
 USER_CREDENTIALS_FILE = "accounts.json" 
 
 current_user = None
