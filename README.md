@@ -11,7 +11,7 @@
 
 ---
 ## 🖥️ Features
-- **User Authentication**: Allows users to sign up, log in, and log out securely with username and password.
+- **User Authentication**: Allows users to sign up, log in, and log out securely with email and password.
 - **Expense Categorization:** Organize expenses into predefined categories for better insights.  
 - **Automatic Data Persistence:** Save data seamlessly to ensure consistent tracking over time.  
 - **Budget Comparison and Alerts:** Compare expenses against budgets and receive warnings for overspending.  
@@ -57,6 +57,8 @@ The Xpense Tracker application is designed with fundamental Python concepts and 
 - **`Enum`:** It is used to define a fixed set of expense categories (ex: Food, Transport) for better data consistency and validation. It also makes the code more readable and easier to maintain.
 - **`hashlib`:** It is used to secure user passwords via hashing, ensuring user data privacy.
 - **`os`:** This module is used to check if a file already exists in a specific directory. This prevents overwriting existing files and ensures you're using the correct file paths when saving or loading data.
+- **``re:``** This module is specifically used in the is_valid_email function to validate email formats.
+
 ### 4. Error Handling
 - **Input Validation:**
   Ensures all user inputs are correctly formatted to prevent unexpected errors:
@@ -133,8 +135,8 @@ By addressing these aspects,Xpense Tracker aligns with the global goal of encour
 -------- Sign Up --------
 
         Enter your full name: Annrie Rosales
-        Choose a username: itsyourrie   
-        Choose a password (at least 8 characters): 01234567 
+        Enter Your Email: annrierosales22@gmail.com
+        Choose a password (at least 8 characters): 01234567
 
 Sign-up successful! You can now log in.
 ```
@@ -151,7 +153,7 @@ Sign-up successful! You can now log in.
 
    Enter your choice: 2
 LOG IN
-        Enter your username: itsyourrie
+        Enter your Email: annrierosales22@gmail.com
         Enter your password: 01234567
         Welcome, Annrie Rosales!
 
